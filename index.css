@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(20, 20, 20);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+p{
+    color: white;
+    position: relative;
+    left: 27.5%;
+}
+
+input{
+    background: #ddd;
+    position: absolute;
+    border: 0.2px solid green;
+    border-radius: 12px;
+    padding: 15px 20px;
+    left: 23.5%;
+}
+
+input:focus{
+    outline: none;
+}
+
+#item{
+    top: 10%;
+}
+
+#price{
+    top: 20%;
+}
+
+#submit{
+    outline: none;
+    border: 0.2px solid green;
+    border-radius: 12px;
+    padding: 15px 20px;
+    position: absolute;
+    top: 30%;
+    left: 38%;
+}
